@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: #EFDAD7;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.logo-header{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-header{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.login-link{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 50%;
+}
+.main-title{
+    font-family: 'Snell Roundhand', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    height: 70%;
+    padding-top: 2%;
+    margin: 0ch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message-title{
+    font-family: 'Snell Roundhand', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    height: 25%;
+    margin: 0ch;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.link-sesion{
+    font-family: "Goudy Old Style";
+    color: black;
+}
+.icon-compras{
+    height: 40px;
+    width: 40px;
+}
+.icon-shopping{
+    width: 15%;
+}
+.menu{
+    height: 50px;
+    width: 100%;
+    background-color: #1572A1;
+}
+.list-container {
+    height: max-content;
+}
+li {
+    float: left;
+    width: 33%;
+    align-content: baseline;
+    justify-content: center;
+    display: flex;
+    text-decoration:none;
+}
+.label-option{
+    font-family:"Goudy Old Style";
+    font-size: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.label-option-selected{
+    font-family:"Goudy Old Style";
+    font-size: 25px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.label-option:hover{
+    text-decoration: underline aliceblue;
+    color:aliceblue;
+}
+.content{
+    position: relative;
+    height:530px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.img-background{
+    z-index: -1;
+    opacity: .2;
+    position: absolute;
+    height:530px;
+    width: 100%;
+}
+.imagen-left-container{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.imagen-center-container{
+    width:37.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    font-family:"Goudy Old Style";
+}
+.imagen-right-container{
+    width: 37.5%;
+    display: flex;
+    padding-top: 140px;
+    font-family:"Goudy Old Style";
+    padding-left: 5%;
+}
+.image-left{
+    height: 250px;
+    width: 250px;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+.image-product {
+    height: 350px;
+    width: 350px;
+
+}
+.description-cake{
+    text-align: center;
+}
+.title-pedido{
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.description1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.description2{
+    font-size: 17px;
+}
+.description3{
+    font-size: 17px;
+}
+.add-car{
+    position: absolute;
+    height: 45px;
+    width: 155px;
+    background-color: #1572A1;
+    color: white;
+    align-self:flex-end;
+    margin-bottom: 55px;
+    border-radius: 5px;
+    font-family:"Goudy Old Style";
+    font-size: 17px;
+}
+.opcionesPastel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+.seleccionaSabor{
+    width: 100%;
+    height: 25px;
+}
+.masIcono{
+    height: 25px;
+    width: 17px;
+    margin-right: 15px;
+}
+.escogerSabor{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 115px;
+}
+.seleccionarPersonas{
+    width: 55%;
+    height: 25px;
+}
+.opcionesTamano{
+    height: 65px;
+}
+.label-personas{
+    display: flex;
+    height: 35px;
+    align-items: center;
+}
+.label-sabor{
+    display: flex;
+    height: 35px;
+    align-items: center;
+}
+.anadirSabor{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    align-items: center
+}
+.anadirBoton{
+    width: 55%;
+    height: 25px;
+}
+.label-decoracion{
+    display: flex;
+    height: 35px;
+    align-items: center;
+}
+.seleccionaDecoracion{
+    width: 55%;
+    height: 25px;
+}
+.end-car{
+    margin-left: 220px;
+    position: absolute;
+    height: 45px;
+    width: 155px;
+    background-color: #1572A1;
+    color: white;
+    align-self:flex-end;
+    margin-bottom: 55px;
+    border-radius: 5px;
+    font-family:"Goudy Old Style";
+    font-size: 17px;
+}
+.comentarios{
+    height: 60px;
+}
+
+.escogerColor{
+    display: flex;
+    height: 160px;
+    width: 55%;
+    flex-direction: column;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width,  initial-scale=1.0">
+        <title>Mike's cake</title>
+        <link href="http://fonts.cdnfonts.com/css/snell-roundhand" rel="stylesheet">
+        <link rel="stylesheet" href="styles-pedido.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo-header">
+                <img src="./src/Logo5-Final.png" class="logo">
+            </div>
+            <div class="title-header">
+                <h1 class="main-title">Mike's cake</h1>
+                <h2 class="message-title">For the family</h2>
+            </div>
+            <div class="login-link">
+                <div class="icon-shopping">
+                    <a href="./finaliza-compra.html">
+                        <img src="./src/icon-compras.png" class="icon-compras">
+                    </a>
+                </div>
+                <a href="sesion-pastelero.html" class="link-sesion">Iniciar sesión</a>
+            </div>
+        </div>
+        <div class="menu">
+            <ul class="list-container">
+                <li><a href="./Principal.html" class="label-option">Nosotros</a></li>
+                <li><a href="./Productos.html" class="label-option-selected">Productos</a></li>
+                <li><a href="./Sucursales.html" class="label-option" >Sucursales</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <img src="./src/background1.jpg" class="img-background">
+            <div class="imagen-left-container">
+                <img src="./src/products/strawberry-cake.jpg" class="image-left">
+                <input type="button" value="Regresar a productos" class="add-car">
+            </div>
+            <div class="imagen-center-container">
+                <div class="opcionesPastel">
+                    <p class="title-pedido">Detalles del pastel</p>
+                    <div class="opcionesTamano">
+                        <label for="size-pedido" class="label-personas">¿Para cuantas personas?</label>
+                        <select name="seleccionarPersonas" class="seleccionarPersonas">
+                            <option value="1" class="seleccionarPersonas">1</option>
+                            <option value="4" class="seleccionarPersonas">4</option>
+                            <option value="8" class="seleccionarPersonas">8</option>
+                            <option value="16" class="seleccionarPersonas">16</option>
+                        </select>
+                    </div>
+                    <div class="escogerSabor">
+                        <label for="size-pedido" class="label-sabor">Elegir sabor</label>
+                        <select name="seleccionaSabor" class="seleccionaSabor">
+                            <option value="chocolate" class="seleccionaSabor">Chocolate</option>
+                            <option value="vainilla" class="seleccionaSabor">Vainilla</option>
+                        </select>
+                        <div class="anadirSabor">
+                            <img src="./src/mas.png" class="masIcono">
+                            <input type="button" value="Añadir sabor" class="anadirBoton">
+                        </div>
+                    </div>
+                    <div class="escogerSabor">
+                        <label for="decoracion" class="label-sabor">Decoracion</label>
+                        <select name="seleccionaDecoracion" class="seleccionaSabor">
+                            <option value="flores" class="seleccionaSabor">Flores</option>
+                            <option value="perlas" class="seleccionaSabor">Perlas</option>
+                        </select>
+                        <div class="anadirSabor">
+                            <img src="./src/mas.png" class="masIcono">
+                            <input type="button" value="Añadir adorno" class="anadirBoton">
+                        </div>
+                    </div>
+                </div>
+                   
+            </div>
+            <div class="imagen-right-container">
+                <div class="escogerColor">
+                    <label for="decoracion" class="label-sabor">Color</label>
+                    <select name="seleccionaDecoracion" class="seleccionaSabor">
+                        <option value="flores" class="seleccionaSabor">Rosa</option>
+                        <option value="perlas" class="seleccionaSabor">Azul</option>
+                    </select>
+                    <label for="decoracion" class="label-sabor">Comentarios Adicionales</label>
+                    <textarea name="comentarios" class="comentarios"></textarea>
+                </div>
+                <input type="button" value="Finalizar pedido" class="end-car">
+            </div>
+            
+        </div>
+    </body>
+</html>

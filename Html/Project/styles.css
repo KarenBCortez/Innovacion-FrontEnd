@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: #EFDAD7;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.logo-header{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-header{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.login-link{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 50%;
+}
+.main-title{
+    font-family: 'Snell Roundhand', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    height: 70%;
+    padding-top: 2%;
+    margin: 0ch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message-title{
+    font-family: 'Snell Roundhand', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    height: 25%;
+    margin: 0ch;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.link-sesion{
+    font-family: "Goudy Old Style";
+    color: black;
+}
+.icon-compras{
+    height: 40px;
+    width: 40px;
+}
+.icon-shopping{
+    width: 15%;
+}
+.menu{
+    height: 50px;
+    width: 100%;
+    background-color: #1572A1;
+}
+.list-container {
+    height: max-content;
+}
+li {
+    float: left;
+    width: 33%;
+    align-content: baseline;
+    justify-content: center;
+    display: flex;
+    text-decoration:none;
+}
+.label-option{
+    font-family:"Goudy Old Style";
+    font-size: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.label-option-selected{
+    font-family:"Goudy Old Style";
+    font-size: 25px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.label-option:hover{
+    text-decoration: underline aliceblue;
+    color:aliceblue;
+}
+.content{
+    position: relative;
+    z-index: -2;
+    height:530px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.img-background{
+    z-index: -1;
+    opacity: .2;
+    position: absolute;
+    height:530px;
+    width: 100%;
+}
+.imagen-left-container{
+    z-index: 1;
+    width: 35%;
+    height:530px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.text-right{
+    width: 65%;
+    height:530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-left{
+    height: 70%;
+    width: 90%;
+    z-index: 2;
+    position: relative;
+    border-radius: 10px;
+}
+.textbox-nosotros{
+    position: relative;
+    height: 70%;
+    width: 70%;
+}
+.tittle-nosotros{
+    font-family:"Goudy Old Style";
+    font-style: italic;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+.text-nosotros{
+    font-family:"Goudy Old Style";
+    text-align: justify;
+    font-size: 22px;
+}
+.finalText-nosotros {
+    font-family:"Goudy Old Style";
+    font-size: 25px;
+    font-style: italic;
+}
