@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <script src="./pokedex.js"></script>
+    <link rel="stylesheet" href="./pokedex_styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Roboto+Mono&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <div class="background-div">
+            <div class="top-pokedex"></div>
+            <div class="set-info">
+                <div class="search-info">
+                    <div class="input-pokemon">
+                        <input type="text" placeholder="Ingrese pokemon" id="pokeName" class="pokeName">
+                    </div>
+                    <div class="search-pokemon">
+                        
+                        <div  class="buttons">
+                            <input type="button" id="searchBefore" class="searchBefore" value="<" onclick=getPokemonId(false)>
+                        </div>
+                        <div  class="buttons">
+                            <input type="button" id="searchName" class="searchName" onclick=getPokemon()>
+                        </div>
+                        <div  class="buttons">
+                            <input type="button" id="searchNext" class="searchNext" value=">" onclick=getPokemonId(true)>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="display-info">
+                <div class="view-info">
+                    <div class="top-img-pokemon" id="top-img-pokemon">
+                        <img class="pokeImg"  id="pokeImg" src="">
+                    </div>
+                    <div class="info-pokemon" id="info-pokemon">
+                        <p class="pokeIdLabel" id="pokeIdLabel"></p>
+                        <p class="pokeNameLabel" id="pokeNameLabel"></p>
+                        <p class="pokeType" id="pokeType"></p>
+                        <p class="pokeStats" id="pokeStats"></p>
+                        <p class="pokeMoves" id="pokeMoves"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

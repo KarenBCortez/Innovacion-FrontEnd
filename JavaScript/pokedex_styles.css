@@ -1,0 +1,222 @@
+body{
+    margin: 0px;
+}
+.background-div{
+    background-color: #721212;
+    width: 100%;
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+}
+.top-pokedex{
+    height: 30px;
+    position: absolute;
+    background-image: linear-gradient(#61090e, #d4323a, #61090e);
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.set-info{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.display-info{
+    width: 70%;
+    height:  100%;
+    box-shadow: rgba(69, 10, 13, 0.4) 0 3px 13px 1px; 
+    background-color: #b22a31;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.view-info{
+    height: 80%;
+    width: 85%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 20px;
+    border-color: #383434;
+    background-color: #d8d8d8;
+    background-image: url("./src/pokeball.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+.search-info{
+    height: 80%;
+    width: 90%;
+    box-shadow: 0px 3px 3px rgba(255,255,255,0.5),0px -1px 1px rgba(0,0,0,.3);
+    display: flex;
+    flex-direction: column;
+}
+.input-pokemon{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokeName{
+    font-family: 'Arvo', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    height: 35px;
+    width: 200px;
+}
+.search-pokemon{
+    display: flex;
+    flex-direction: row;
+}
+.buttons{
+    width: 33.3%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchName{
+    background-image: url("./src/pokeball.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border-style: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: #7c7c7c 0 4px 0 0;
+    touch-action: manipulation;
+}
+
+
+.searchName:hover {
+    background-color: #1f1f1f;
+}
+  
+.searchName:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+  
+
+.searchBefore {
+    background-color: #000000;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    width: 90%;
+    box-shadow: #7c7c7c 0 4px 0 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 35px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+.searchBefore:hover {
+  background-color: #1f1f1f;
+}
+
+.searchBefore:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.searchNext {
+    background-color: #000000;
+    border: 2px solid #422800;
+    width: 90%;
+    border-radius: 30px;
+    box-shadow: #7c7c7c 0 4px 0 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 35px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+.searchNext:hover {
+  background-color: #1f1f1f;
+}
+
+.searchNext:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.top-img-pokemon{
+    display: none;
+}
+
+.top-img-pokemon-active{
+    height: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background-color: #000000;
+}
+
+.pokeImg{
+    height: 100%;
+    width: 45%;
+}
+
+.info-pokemon{
+    display: none;
+}
+
+.info-pokemon-activate{
+    height: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background-color: #000000;
+    flex-direction: column;
+    color: white;
+    font-family: 'Arvo', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Share Tech Mono', monospace;
+}
+.pokeIdLabel{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px;
+}
+.pokeNameLabel{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px;
+}
+.pokeType, .pokeStats {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.pokeMoves{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px;
+    overflow-y: scroll;
+}
